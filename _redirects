@@ -1,0 +1,12 @@
+# Cloudflare Pages Redirects
+# Redirect trailing slashes (optional)
+# /path/ /path 301
+
+# Force HTTPS (Cloudflare handles this automatically)
+
+# Redirect old URLs if needed
+# /old-page /new-page 301
+# /portfolio /projects 301
+
+# SPA fallback
+# /* /index.html 200

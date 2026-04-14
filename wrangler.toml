@@ -1,0 +1,20 @@
+name = "portfolio"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+name = "portfolio-prod"
+route = ""
+zone_id = ""
+
+[build]
+command = ""
+cwd = ""
+watch_paths = []
+
+# Cloudflare Pages configuration
+[env.production.vars]
+ENVIRONMENT = "production"
